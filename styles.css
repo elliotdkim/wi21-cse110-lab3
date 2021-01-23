@@ -1,0 +1,73 @@
+/* Stylesheet for NOT Elliot's Website */
+
+*:not(b):not(strong):not(a):not(i):not(em) {
+    margin-top: auto;
+    margin-left: 4%;
+    margin-right: 2em;
+    margin-bottom: 0.2cm;
+}
+
+body {
+
+    font: 1.2em "Open Sans", sans-serif;
+    color: #d3d3d3;
+    background-color: hsla(0,0%,0%,.9);
+
+}
+
+h1 {
+    color: #00ccff;
+    text-decoration: underline dotted;
+    text-align: center;
+}
+
+h2, a {
+    color: lightskyblue;
+    text-align: center;
+}
+
+h3 {
+    color: hsl(197, 71%, 73%);
+    text-align: center;
+}
+
+img {
+    border-style: solid;
+    border-color: gray;
+    border-width: 5pt;
+    border-radius: 2mm;
+    width: 458px;
+    height: 305px;
+}
+
+pre {
+    color: hotpink;
+}
+
+.theonlyclass , td, th{
+    border: 1px solid rgb(125, 209, 146);
+    background-color: rgb(93, 91, 91);
+}
+
+#tablecaption {
+    color: #b9dae2;
+}
+
+*#listitem {
+    color: gray;
+}
+
+a[class~="other"] {
+    color: whitesmoke;
+}
+
+label:hover {
+    color:greenyellow;
+}
+
+canvas {
+    padding-left: 2fr;
+    padding-top: 10pt;
+    padding-right:15rem;
+    padding-bottom: 5vh;
+}
